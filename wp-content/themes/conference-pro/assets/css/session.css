@@ -1,0 +1,20 @@
+.time-schedule__session {position: absolute;width: 100%;top: 87.4%;margin: auto;}
+.time-schedule__session .time-schedule__session__place, .time-schedule__session time {display: block;width: 300px;height: 54px;margin: 0 auto 22px;padding: 16px 0 0;background: #fff;font-family: "Montserrat",sans-serif;text-transform: uppercase;text-align: center;color: #435965;font-size: 15px;letter-spacing: 0;box-shadow: 0 0 50px 0 #cbf1f1;}
+.time-schedule__session__place i {padding-right: 4px;}
+.session {padding: 45px 0 48px 0;text-align: center;}
+.session__text p {margin-bottom: 24px;}
+.session__labels {padding-left: 20px;padding-top: 9px;text-align: left;}
+.session__labels .label {padding: 2px 9px 1px 11px;min-width: 71px;font-size: 12px;line-height: 13px;margin-bottom: 4px;white-space: nowrap;}
+.speakers_session {padding: 146px 0 56px;}
+@media (min-width: 768px) {.hero_session .hero__layout {padding: 175px 0 31px;}
+	.time-schedule__session {text-align: center;top: 88.3%;}
+	.time-schedule__session__place {width: auto;padding: 15px 28px 12px;}
+	.time-schedule__session__place, .time-schedule__session time {display: inline-block !important;vertical-align: top;margin: 0 6px !important;}
+	.session {padding: 62px 0 36px 0;}
+	.session__text p {margin-bottom: 24px;font-size: 17px;line-height: 24px;}
+	.session__labels {padding-left: 0;padding-top: 29px;max-width: 560px;margin: auto;text-align: left;}
+	.speakers_session {padding: 85px 0 56px;}}
+@media (min-width: 1000px) {.hero_session .hero__layout {padding: 132px 0 31px;}
+	.session {padding: 120px 0 123px 0;}
+	.session__text {max-width: 775px;margin: auto;}
+	.speakers_session {padding: 84px 0 56px;}}
