@@ -1,0 +1,40 @@
+html {background: none;}
+#screen-options-link-wrap, .dxef_editor_frontend #adminmenumain, .dxef_editor_frontend #wpfooter, .dxef_editor_frontend #wpadminbar {display: none;}
+.dxef_editor_frontend #wpcontent {padding-left: 0;margin-left: 0;}
+.dxef_editor_frontend #wpbody-content {padding-bottom: 0;overflow: hidden;}
+#ef_main_iframe {width: 100%;height: 100%;}
+html.wp-toolbar {padding-top: 60px;}
+#ef_fe_toolbar {position: absolute;top: -60px;left: 0;right: 0;height: 59px;background: #2a62bc;border-bottom: 1px solid #c7c7c7;}
+#ef_fe_available_sections {position: absolute;top: 100%;right: 20px;background: #ececec;border: 1px solid #ccc;width: 450px;}
+#ef_fe_available_sections ul {list-style: none;}
+#ef_fe_available_sections ul li {float: left;}
+#ef_fe_available_sections ul li a {color: #000;display: block;height: 45px;padding: 5px;text-align: center;width: 80px;text-decoration: none;}
+#ef_fe_available_sections ul li a i {display: block;font-size: 24px;}
+#ef_fe_content {display: none;}
+.ef-fe-controls {background: orange none repeat scroll 0 0;bottom: 0;color: #fff;height: 40px;left: 50%;position: absolute;width: 300px;margin-left: -150px;text-align: left;opacity: 0;-webkit-transition: opacity 300ms ease;-moz-transition: opacity 300ms ease;-ms-transition: opacity 300ms ease;-o-transition: opacity 300ms ease;transition: opacity 300ms ease;border-radius: 10px 10px 0 0;overflow: hidden;z-index: 999999;}
+.ef-fe-controls a {border-right: 1px solid #fff;color: #fff !important;display: inline-block;padding: 8px 5px;width: 50%;text-align: center;-webkit-transition: background 300ms ease;-moz-transition: background 300ms ease;-ms-transition: background 300ms ease;-o-transition: background 300ms ease;transition: background 300ms ease;font-size: 15px !important;}
+.ef-fe-controls a:hover {background-color: rgba(0,0,0,.1);}
+*:hover > .ef-fe-controls {opacity: 1;}
+.ef-fe-element {position: relative;min-height: 120px;}
+#ef_fe_main_edit {position: fixed;right: -100%;top: 70px;height: 80%;overflow: auto;width: 30%;-webkit-transition: right 300ms;-moz-transition: right 300ms;-ms-transition: right 300ms;-o-transition: right 300ms;transition: right 300ms;background: #f5f5f5;border: 1px solid #ccc;padding: 20px;border-radius: 5px;}
+#ef_fe_main_edit.show {right: 0;}
+#ef_fe_main_edit input[type="text"], #ef_fe_main_edit textarea, #ef_fe_main_edit label {width: 100%;display: block;}
+#ef_fe_main_edit input.wp-color-picker {width: auto;display: inline;}
+#ef_tooltip {position: absolute;z-index: 99000;display: none;background: #fcfcfc;color: #666;padding: 5px;font-family: "Open Sans",sans-serif;pointer-events: none;}
+.ef_fe_menu {list-style: none;margin: 0;background-color: #2a62bc;border-left: 1px solid #00b295;}
+.ef_fe_pull_right {float: right;}
+.ef_fe_menu li {float: left;display: block;margin: 0;}
+.ef_fe_menu li a {border-right: 1px solid #00b295;padding: 21px 20px;color: #fff;background-color: #2a62bc;font-size: 16px;text-decoration: none;font-family: "Open Sans",sans-serif;display: block;-webkit-transition: all 300ms;-moz-transition: all 300ms;-ms-transition: all 300ms;-o-transition: all 300ms;transition: all 300ms;}
+.ef_fe_menu li a:hover {background-color: #00b295;}
+.ef_fe_dropdown {position: absolute;background: #2a62bc;color: #fff;top: 60px;}
+#ef_fe_sizes {right: 76px;}
+#ef_fe_sizes li {float: left;padding: 0 10px;}
+#ef_fe_sizes li a {color: #fff;font-size: 30px;display: block;padding: 10px 10px;}
+#ef_fe_main_edit .ef_fe_toggler {display: block;padding: 5px;background: #ccc;border: 1px solid #d6d6d6;color: #fff;text-decoration: none;}
+#ef_fe_main_edit .toggler_target {padding: 5px;border: 1px solid #d6d6d6;border-top: none;background: #e7e7e7;}
+#ef_fe_main_edit .close {background: #ccc none repeat scroll 0 0;border-radius: 50%;color: rgba(0,0,0,.5);display: block;font-size: 15px;height: 20px;left: 2px;line-height: 1.1;position: absolute;text-align: center;top: 2px;width: 20px;}
+#ef_fe_main_edit .toggleside {color: #666;font-weight: bold;position: absolute;right: 10px;text-decoration: none;top: 0;}
+#ef_fe_main_edit.forceleft.show {right: auto;left: 0;}
+.ef_fe_entity {position: relative;}
+.ef_fe_entity_link {background: #808080 none repeat scroll 0 0;color: #fff;left: 0;padding: 0 5px;position: absolute;top: 0;z-index: 9999999;font-size: 16px !important;line-height: 1.2;}
+#ef_highlighter {border: 2px dotted #2a62bc;pointer-events: none;position: absolute;z-index: 9999;max-width: 100% !important;}
