@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700|Montserrat:400,700");
+.samplepage {color: #fff;}
+.samplepage p {color: #fff;margin: 20px 0;}
+.samplepage ul {list-style-type: disc;margin-left: 18px;}
+.samplepage ol {list-style-type: decimal;margin-left: 18px;}
+.samplepage iframe {border: 0;}
+.samplepage .products {width: 100%;margin: 20px 0 20px 0;font-size: 26px;color: #fff;}
+.samplepage .woocommerce .products th {font-size: 18px;}
+.samplepage .woocommerce .products th.quantity-th, .registration .woocommerce .products th.price-th {text-align: center;}
+.samplepage .woocommerce .products tr.product:first-child {border-top: 1px solid #ccc;}
+.samplepage .woocommerce .products tr.product {border-bottom: 1px solid #ccc;}
+.samplepage .woocommerce .products td {padding: 5px;}
+.samplepage .woocommerce .qty {border: 1px solid #ccc;width: 40px;padding: 5px;vertical-align: middle;}
+.samplepage .woocommerce .description {text-align: left;}
+.samplepage .woocommerce .title {width: 15%;text-align: left;}
+.samplepage .woocommerce .title h3 {font-size: 18px !important;display: inline;font-weight: bold;}
+.samplepage .woocommerce form.cart {display: inline-block;}
+.samplepage .woocommerce tr .btn {padding: 5px 15px;}
+.samplepage .add_to_cart_loop {width: auto;padding: 0 20px;}
+.samplepage .woocommerce .short-description {display: inline;vertical-align: -webkit-baseline-middle;vertical-align: middle;font-size: 20px;}
+.samplepage .woocommerce .price {font-size: 18px;font-weight: bold;}
+.samplepage .woocommerce .cart .product-thumbnail img {width: 180px;}
+.samplepage .gform_wrapper .gfield_radio li label {font-size: 15px;}
+.samplepage .gform_wrapper ul.gform_fields li.gfield input[type=radio] {-webkit-appearance: radio !important;margin: 1px;}
+.samplepage .btn.btn-black:hover {background-color: #000 !important;color: #fff;}
+.samplepage .btn.btn-green {background-color: #83febf;}
+.samplepage.embedded-editor, .samplepage.embedded-editor p {color: #000;}
+.samplepage.embedded-editor .content .col-md-6 {float: left;width: 50%;}
+.samplepage.embedded-editor .content .col-md-4 {float: left;width: 33.33333333%;}
+.samplepage.embedded-editor .content .col-md-3 {float: left;width: 25%;}
+.samplepage.embedded-editor .content.row {width: 100%;}
+.samplepage.embedded-editor .btn {display: inline-block;vertical-align: top;position: relative;overflow: hidden;width: 220px;height: 47px;padding: 13px 10px;text-align: center;letter-spacing: .6px;text-transform: uppercase;font-family: "Montserrat",sans-serif;color: #fff;font-size: 20px;line-height: 20px;border: 1px solid #f77;background: #f77;box-shadow: 0 5px 20px 0 rgba(255,119,119,1);-webkit-transition: border .3s,background .3s,box-shadow .3s;transition: border .3s,background .3s,box-shadow .3s;text-decoration: none;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.samplepage.embedded-editor .btn:hover {background: #fd8888;border-color: #fc9595;box-shadow: 0 5px 20px 0 rgba(255,119,119,0);}
+.samplepage.embedded-editor .btn.btn_1 {width: 216px;height: 64px;padding: 23px 10px;font-size: 19px;line-height: 18px;}
+.samplepage.embedded-editor .btn.btn_2 {position: relative;z-index: 1;width: 175px;height: 65px;padding: 21px 10px;background: #435a65;border-color: #435a65;box-shadow: 0 5px 20px 0 rgba(67,90,101,1);font-family: "Montserrat",sans-serif;}
+.samplepage.embedded-editor .btn_2:hover {background: #435a65;border-color: #435a65;box-shadow: 0 5px 20px 0 rgba(255,119,119,0);}
+.samplepage.embedded-editor .btn_3 {width: 181px;height: 54px;padding-top: 17px;background: transparent;box-shadow: none;border: 2px solid #647e8b;font-size: 17px;}
+.samplepage.embedded-editor .btn_3:hover {background: #567483;border-color: #647e8b;box-shadow: none;}
+.samplepage.embedded-editor .btn_4 {width: 139px;height: 56px;padding: 18px 10px;color: #687c83;background: transparent;box-shadow: none;border: 2px solid #ebebeb;font-size: 15px;line-height: 15px;}
+.samplepage.embedded-editor .btn_4:hover {background: #d4cece;border-color: #ebebeb;box-shadow: none;}
+.samplepage.embedded-editor .btn_4-1 {width: 157px;height: 45px;padding: 13px 10px;}
+.samplepage.embedded-editor .btn_4-2 {border: 2px solid #b1d9d9;}
+.samplepage.embedded-editor .btn_4-2:hover {background: #b1d9d9;border-color: #9ec6c6;box-shadow: none;}
+.samplepage.embedded-editor .btn_4-3 {width: auto;height: 24px;padding: 4px 4px;font-size: 12px;line-height: 12px;}
+.samplepage.embedded-editor .btn_5 {width: 144px !important;height: 60px;font-size: 18px;border-color: #435a65;background-color: #435a65;box-shadow: none;}
+.samplepage.embedded-editor .bnt_auto {width: auto;padding-left: 25px;padding-right: 25px;}
+.samplepage.embedded-editor h1, .samplepage.embedded-editor h2, .samplepage.embedded-editor h3, .samplepage.embedded-editor h4, .samplepage.embedded-editor h5 {font-size: 30px;line-height: 42px;margin-bottom: 20px;font-family: "Montserrat",sans-serif;text-align: center;}
+.samplepage.embedded-editor h2 {font-size: 24px;line-height: 36px;}
+.samplepage.embedded-editor h3 {font-size: 21px;line-height: 30px;}
+.samplepage.embedded-editor h4 {font-size: 18px;line-height: 26px;}
+.samplepage.embedded-editor h5 {font-size: 15px;line-height: 22px;}
+.samplepage.embedded-editor h6 {font-size: 12px;line-height: 18px;}
+.col, .samplepage.embedded-editor p {font-family: "Open Sans",​sans-serif;font-size: 16px;}
+.samplepage.embedded-editor p {margin-bottom: 35px;}
+.samplepage.embedded-editor ul {list-style: disc;margin: 0 15px 10px 15px;}
+.samplepage.embedded-editor ul ul {margin: 10px 0 10px 25px;}
+.samplepage.embedded-editor ol {list-style: decimal;margin: 0 15px 10px 20px;}
+.samplepage.embedded-editor ol ol {margin: 10px 0 10px 25px;}
+.samplepage.embedded-editor li {margin-bottom: 5px;}
