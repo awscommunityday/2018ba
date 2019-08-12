@@ -1,0 +1,40 @@
+.hero_inner-session .hero__layout {padding: 119px 0 69px;}
+.exhibitor-description img, .exhibitor-description iframe {max-width: 100%;}
+.sponsors-description__represent {padding: 56px 0 0;text-align: center;}
+.sponsors-description__represent_exhibitor {padding: 205px 0 0;}
+.sponsors-description__represent > a {display: inline-block;width: 276px;margin-bottom: 41px;}
+.sponsors-description__represent img {width: 100%;}
+.sponsors-description__represent .site__title {margin: 0 0 7px;}
+.sponsors-description__represent-text {font-size: 17px;line-height: 38px;letter-spacing: .5px;}
+.sponsors-description__contacts {text-align: center;padding: 55px 0 0;}
+.sponsors-description__contacts-item {display: block;margin: 0 20px 52px 59px;text-align: left;}
+.sponsors-description__contacts-item address {width: 150px;font-size: 17px;line-height: 30px;font-style: normal;letter-spacing: -.5px;color: #435965;}
+.sponsors-description__contacts-item a {border-bottom: 1px solid transparent;font-size: 16px;line-height: 30px;color: #435965;-webkit-transition: border .3s ease-in-out;transition: border .3s ease-in-out;}
+.sponsors-description__contacts-item a:hover {border-bottom: 1px solid #435965;}
+.sponsors-description__contacts-item a[href^="tel"] {cursor: default;border: none;}
+.sponsors-description__contacts-item a[href^="tel"]:hover {border-bottom: none;}
+.sponsors-description__contacts-title {display: block;margin-bottom: 15px;margin-left: -3px;font-family: "Montserrat",sans-serif;font-weight: 700;font-size: 20px;line-height: 36px;letter-spacing: .1px;text-transform: uppercase;}
+.sponsors-description__video {margin-bottom: 42px;margin-top: 39px;}
+.sponsors-description__video > div {height: 190px;width: 320px;padding: 0;}
+.sponsors-description__video iframe {width: 100%;height: 100%;}
+.sponsors-info {position: absolute;left: 0;width: 100%;top: 89.2%;text-align: center;}
+.sponsors-info__item {display: inline-block;vertical-align: top;padding: 18px 44px 14px;margin-bottom: 16px;background: #fff;box-shadow: 0 0 50px 0 #cbf1f1;}
+.sponsors-info__item_long {padding: 19px 28px 13px;}
+.sponsors-info__item dt, .sponsors-info__item dd {display: inline-block;vertical-align: top;font-size: 16px;color: #435965;text-transform: uppercase;font-family: "Montserrat",sans-serif;}
+@media (min-width: 768px) {.hero_inner-session .hero__layout {padding: 145px 0 67px;}
+	.sponsors-description__represent, .sponsors-description__represent_exhibitor {padding: 79px 0 0;}
+	.sponsors-description__represent > a {width: auto;margin-bottom: 79px;}
+	.sponsors-description__contacts {padding: 68px 3px 38px 8px;}
+	.sponsors-description__contacts-item {vertical-align: top;display: inline-block;width: 30%;margin: 0 26px 52px 20px;text-align: left;}
+	.sponsors-description__video {margin-bottom: 86px;margin-top: 82px;}
+	.sponsors-description__video > div {height: 405px;width: 94.2%;}
+	.sponsors-info {top: 89.7%;}
+	.sponsors-info__item {padding: 18px 42px 14px;margin: 0 3px 16px;}
+	.sponsors-info__item_long {padding: 19px 28px 13px;}}
+@media (min-width: 1000px) {.hero_inner-session .hero__layout {padding: 137px 0 67px;}
+	.sponsors-description__represent, .sponsors-description__represent_exhibitor {padding: 91px 0 0;}
+	.sponsors-description__contacts {padding: 75px 0 74px 23px;}
+	.sponsors-description__contacts-item {margin: 0 41px 20px;}
+	.sponsors-description__video {margin-bottom: 114px;margin-top: 28px;}
+	.sponsors-description__video > div {height: 587px;width: 1044px;}}
+@media (min-width: 1170px) {.sponsors-description__contacts-item {width: auto;margin: 0 45px 20px;}}
